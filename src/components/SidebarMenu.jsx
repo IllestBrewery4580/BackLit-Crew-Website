@@ -25,3 +25,5 @@ function SidebarMenu() {
         </div>
     );
 }
+
+export default SidebarMenu;
