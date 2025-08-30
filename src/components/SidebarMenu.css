@@ -1,0 +1,36 @@
+.sidebar-menu {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1000;
+}
+
+.hamburger {
+    font-size: 2rem;
+    background: var(--color-primary);
+    color: var(--color-text);
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.menu dropdown {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-secondary);
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.menu-dropdown a {
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 0.5rem 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.menu-dropdown a:hover {
+    color: var(--color-primary);
+}
